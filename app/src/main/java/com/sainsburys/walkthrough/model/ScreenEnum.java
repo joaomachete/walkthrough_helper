@@ -9,8 +9,7 @@ public enum ScreenEnum {
 
     SCREEN1(0, R.drawable.ic_launcher, R.drawable.ic_launcher, R.color.primary_dark, R.string.walkthrough_text1),
     SCREEN2(1, R.drawable.ic_launcher, R.drawable.ic_launcher, R.color.primary_dark, R.string.walkthrough_text2),
-    SCREEN3(2, R.drawable.ic_launcher, R.drawable.ic_launcher, R.color.primary_dark, R.string.walkthrough_text3),
-    SCREEN4(3, R.drawable.ic_launcher, R.drawable.ic_launcher, R.color.primary_dark, R.string.walkthrough_text4);
+    SCREEN3(2, R.drawable.ic_launcher, R.drawable.ic_launcher, R.color.primary_dark, R.string.walkthrough_text3);
 
     public int screen_index;
     public int image;
@@ -26,4 +25,5 @@ public enum ScreenEnum {
         this.color = color;
         this.text = text;
     }
+
 }

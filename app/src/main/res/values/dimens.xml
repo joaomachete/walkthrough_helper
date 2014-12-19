@@ -1,0 +1,10 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="card_margin">30dip</dimen>
+    <dimen name="walkthrough_img">200dip</dimen>
+    <dimen name="walkthrough_title">40sp</dimen>
+    <dimen name="walkthrough_padding">20dip</dimen>
+</resources>

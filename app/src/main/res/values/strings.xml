@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Walkthrough</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="walkthrough_text1">Lorem ipsum\nlorem ipsum</string>
+    <string name="walkthrough_text2">Lorem ipsum\nlorem ipsum</string>
+    <string name="walkthrough_text3">Lorem ipsum\nlorem ipsum</string>
+    <string name="walkthrough_text4">lorem ipsum\nlorem ipsum</string>
+
+</resources>

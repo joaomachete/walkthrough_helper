@@ -1,0 +1,46 @@
+<!--
+  ~ Copyright (c) 2014 SainsBurys Entertainment. Printed in Uk. All Rights Reserved. The copyright to the software program(s) is property of SainsBurys Entertainment. The program(s) may be used and or copied only with the express written consent of AloALo Ltd or in accordance with the terms and conditions stipulated in the agreement/contract under which the program(s) have been supplied.
+  -->
+
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+
+        <item name="android:windowNoTitle">true</item>
+        <!-- Use the Toolbar instead of the ActionBar
+       (new in API 21 and AppCompat). -->
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+
+        <!-- colorPrimary is used for the default action bar background -->
+        <item name="colorPrimary">@color/primary</item>
+
+        <!-- colorPrimaryDark is used for the status bar -->
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+
+        <!-- colorAccent is used as the default value for colorControlActivated
+             which is used to tint widgets -->
+        <item name="colorAccent">@color/accent</item>
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+        <item name="android:actionMenuTextColor">@color/text_action_menu</item>
+        <item name="android:windowBackground">@color/window_background</item>
+        <!-- You can also set colorControlNormal, colorControlActivated
+     colorControlHighlight & colorSwitchThumbNormal.-->
+        <item name="android:scrollbarThumbVertical">@drawable/scrollbar</item>
+
+        <item name="android:windowContentTransitions">true</item>
+        <item name="android:windowAllowEnterTransitionOverlap">true</item>
+        <item name="android:windowAllowReturnTransitionOverlap">true</item>
+        <item name="android:windowSharedElementEnterTransition">@android:transition/move</item>
+        <item name="android:windowSharedElementExitTransition">@android:transition/move</item>
+
+        <!--<item name="android:navigationBarColor">@color/primary</item>-->
+    </style>
+
+    <style name="OverscrollThemeOverlay" parent="Theme.AppCompat.Light">
+        <item name="android:colorEdgeEffect">@color/primary</item>
+    </style>
+
+</resources>

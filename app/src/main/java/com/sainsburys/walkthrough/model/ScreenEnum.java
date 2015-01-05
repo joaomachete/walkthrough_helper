@@ -7,9 +7,9 @@ import com.sainsburys.walkthrough.R;
  */
 public enum ScreenEnum {
 
-    SCREEN1(0, R.drawable.ic_launcher, R.drawable.ic_launcher, R.color.primary_dark, R.string.walkthrough_text1),
-    SCREEN2(1, R.drawable.ic_launcher, R.drawable.ic_launcher, R.color.primary_dark, R.string.walkthrough_text2),
-    SCREEN3(2, R.drawable.ic_launcher, R.drawable.ic_launcher, R.color.primary_dark, R.string.walkthrough_text3);
+    SCREEN1(0, R.drawable.longpress, R.drawable.ic_launcher, R.color.primary_dark, R.string.walkthrough_text1),
+    SCREEN2(1, R.drawable.swipe, R.drawable.ic_launcher, R.color.primary_dark, R.string.walkthrough_text2),
+    SCREEN3(2, R.drawable.search, R.drawable.ic_launcher, R.color.primary_dark, R.string.walkthrough_text3);
 
     public int screen_index;
     public int image;

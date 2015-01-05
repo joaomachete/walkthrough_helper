@@ -22,7 +22,7 @@
         android:layout_marginEnd="@dimen/card_margin"
         android:layout_marginRight="@dimen/card_margin"
         android:layout_marginTop="@dimen/card_margin"
-        android:background="@drawable/walkthrough"
+        android:background="@drawable/longpress"
         android:scaleType="centerCrop"
         android:layout_weight="1" />
 

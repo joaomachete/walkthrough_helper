@@ -12,6 +12,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 import com.sainsburys.walkthrough.R;
 import com.sainsburys.walkthrough.model.ScreenEnum;
@@ -25,7 +26,6 @@ public class WalkthroughFragment extends Fragment {
 
     public int mParamImage;
     public int mParamIcon;
-    public int mParamColor;
     public String mParamTitle;
 
     private ScreenEnum model;
@@ -70,8 +70,7 @@ public class WalkthroughFragment extends Fragment {
 
             mParamImage = model.image;
             mParamIcon = model.icon;
-            mParamColor = res.getColor(model.color);
-            mParamTitle = res.getString(model.icon);
+            mParamTitle = res.getString(model.text);
         }
     }
 
@@ -86,8 +85,9 @@ public class WalkthroughFragment extends Fragment {
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        ImageView image = (ImageView) view.findViewById(R.id.imageView);
-        image.setBackgroundResource(mParamImage);
+        ((ImageView) view.findViewById(R.id.imageView)).setImageResource(mParamImage);
+        ((ImageView) view.findViewById(R.id.imageViewIcon)).setImageResource(mParamIcon);
+        ((TextView) view.findViewById(R.id.textviewLabel)).setText(mParamTitle);
 
     }
 }
